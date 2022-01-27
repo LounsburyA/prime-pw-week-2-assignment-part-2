@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We start with two variables -- 'secret' and 'code' code is set to 123
+// We check if code is strictly = to 123 'secret'is set to 'super' and 'code' is set to'code multiplied by 2'
+// Then we check if 'code' is > 250 'secret' would = 'duper'
+// code is not greater than 250 so the console log (secret) logs 'super'
 
 //CODE
 /*
@@ -70,10 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We start with three variables -- isStudent is set to true, age is set to 34, zip is set to 55407
+// We have three parameters we would like to check in the following order
+// If isStudent is set to true and zip is greater than 80000 then console log 'You're on the West Coast!'
+// Otherwise isStudent is set to false or age is less than 30 then console log 'What are your hobbies'
+// Otherwise isStudent is set to true then console log 'Welcome to Prime!'
+// alternate conditions entered console log 'How about the weather?'
 
 //CODE
 /*
@@ -84,11 +86,11 @@ let zip = 55407;
 if (isStudent === true && zip > 80000 ) {
   console.log(`You're a student on the West Coast!`);
 } else if (isStudent === false || age < 30) {
-  console.log('What are your hobbies?');
+  console.log('What are your hobbies?')
 } else if (isStudent === true) {
   console.log('Welcome to Prime!');
 } else {
-  console.log('How about the weather?')
+  console.log('How about the weather?');
 }
 
 */
@@ -163,7 +165,7 @@ let age = 21;
 const minAge = 21;
 // FIX - comparison operator- the less than operator is used instead of the greater than
 // we should replace <= with >=
-// it would still console log enter because 21=21 but we to check for 21 or greater
+// it would still console log enter because 21=21 but we want to check for 21 or greater
 if(minAge <= age) {
   console.log('no entry');
 } else {
