@@ -48,8 +48,8 @@ if (name === 'Mary') {
 // We start with two variables -- 'secret' and 'code' code is set to 123
 // We check if code is strictly = to 123 'secret'is set to 'super' and 'code' is set to'code multiplied by 2'
 // Then we check if 'code' is > 250 'secret' would = 'duper'
-// code is not greater than 250 so the console log (secret) logs 'super'
-
+// code is not greater than 250 so console log (secret) logs 'super'
+// We will console log 'Welcome to Prime'
 //CODE
 /*
 let secret;
@@ -76,7 +76,7 @@ console.log(secret)
 // Otherwise isStudent is set to false or age is less than 30 then console log 'What are your hobbies'
 // Otherwise isStudent is set to true then console log 'Welcome to Prime!'
 // alternate conditions entered console log 'How about the weather?'
-
+//
 //CODE
 /*
 let isStudent = true;
