@@ -76,7 +76,7 @@ console.log(secret)
 // Otherwise isStudent is set to false or age is less than 30 then console log 'What are your hobbies'
 // Otherwise isStudent is set to true then console log 'Welcome to Prime!'
 // alternate conditions entered console log 'How about the weather?'
-//
+// console log should be "Welcome to Prime!"
 //CODE
 /*
 let isStudent = true;
